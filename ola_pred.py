@@ -1,10 +1,14 @@
+# import streamlit as st
+# import pandas as pd
+# import pickle
+# import numpy as np
+# from PIL import Image
+# import time
+import pickle
 import streamlit as st
 import pandas as pd
-import pickle
 import numpy as np
-from PIL import Image
-import time
-
+import statsmodels.api as sm  # Import statsmodels to use sm.add_constant
 # Load assets
 with open('OLA_LGB_model.pkl', 'rb') as model_file:
     model = pickle.load(model_file)
