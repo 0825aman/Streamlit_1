@@ -52,16 +52,6 @@ We aim to build a machine learning model that predicts **loan approval status** 
 - **Target:** Loan Status (Approved/Rejected)
 """)
 
-# ---- Header with Company Banner ----
-st.markdown(
-    """
-    <div style="text-align: center;">
-        <img src="company_banner.png" width="80%">
-    </div>
-    """,
-    unsafe_allow_html=True
-)
-
 st.markdown(
     "<h1 style='text-align: center; color: #004AAD;'>🏦 Loan Approval Prediction</h1>"
     "<p style='text-align: center; font-size: 18px;'>💡 Get an instant prediction on your loan approval status!</p>",
