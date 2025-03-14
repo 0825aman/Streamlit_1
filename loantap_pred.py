@@ -198,3 +198,14 @@ with col2:
 # ax.set_xlabel("Approval Rate")
 # st.pyplot(fig)
 
+# Footer
+st.markdown("---")
+st.markdown("""
+    <div style="text-align: center;">
+        <p>🚀 Created by <b>Aman Shrivastava</b></p>
+        <p>📧 Contact: <a href="mailto:amanshrivastava26266@gmail.com">amanshrivastava26266@gmail.com</a></p>
+        <p>🔗 <a href="https://www.linkedin.com/in/aman0802/" target="_blank">LinkedIn</a> | 
+        <a href="https://github.com/0825aman" target="_blank">GitHub</a> | 
+        <a href="https://www.kaggle.com/the0aman0shrivastava" target="_blank">Kaggle</a></p>
+    </div>
+""", unsafe_allow_html=True)
