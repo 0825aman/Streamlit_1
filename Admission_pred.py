@@ -20,7 +20,8 @@ def load_model():
 sm_model, scaler = load_model()
 
 # Sidebar with Banner and Problem Statement
-st.sidebar.image("https://img.studydekho.com/uploads/c/2017/12/c-jamboree-education-pvt-ltd-jaipur-3512.jpg", use_column_width=True)
+st.sidebar.image("https://img.studydekho.com/uploads/c/2017/12/c-jamboree-education-pvt-ltd-jaipur-3512.jpg", width=300)
+
 st.sidebar.markdown(
     """
     ## 🎓 About Jamboree Education
