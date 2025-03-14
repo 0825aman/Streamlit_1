@@ -7,5 +7,3 @@ seaborn
 streamlit
 scipy
 lightgbm
-pickle
-time
